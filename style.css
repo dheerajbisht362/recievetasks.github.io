@@ -1,5 +1,5 @@
 body {
-	background-color: #df5e5e;
+	background-color: #d7d4d4;
 	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 .colWhite {
@@ -62,7 +62,7 @@ button:hover {
 }
 
 #showResults {
-	width: 550px;
+	max-width: 550px;
 	margin: auto;
 	background-color: #f6dcbf;
 	padding: 20px;
@@ -76,7 +76,7 @@ button:hover {
 }
 
 #note {
-	width: 793px;
+	max-width: 793px;
 	margin: auto;
 	color: #4c5758;
 	margin-top: 20px;
@@ -86,6 +86,10 @@ button:hover {
 	input {
 		width: 25%;
 	}
+	.top {
+		margin: 0;
+		width: 100%;
+	}
 
 	select {
 		width: 25%;
@@ -93,5 +97,6 @@ button:hover {
 
 	#container {
 		margin: 0;
+		display: block;
 	}
 }
