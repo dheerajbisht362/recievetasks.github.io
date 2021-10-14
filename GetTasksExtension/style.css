@@ -1,0 +1,20 @@
+body {
+	width: 300px;
+	height: 300px;
+	background-color: rgb(243, 170, 170);
+	display: flex;
+	justify-content: center;
+}
+
+p {
+	display: inner-flex;
+	margin: auto 10px;
+	padding: 10px;
+	font-size: 20px;
+}
+#showResults {
+	border: 1px solid;
+	min-width: 280px;
+	max-height: 280px;
+	font-size: 30px;
+}

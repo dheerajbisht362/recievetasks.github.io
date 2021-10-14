@@ -1,0 +1,97 @@
+body {
+	background-color: #df5e5e;
+	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.colWhite {
+	color: #fff;
+}
+.subHead {
+	color: lavender;
+	font-size: 40px;
+}
+
+input,
+select {
+	width: 50%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	resize: vertical;
+}
+
+select {
+	width: 57%;
+}
+
+label {
+	padding: 12px 12px 12px 0;
+	display: inline-block;
+}
+
+button {
+	background-color: #4caf50;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	border-radius: 8px;
+	transition-duration: 0.4s;
+	border: 2px solid #4caf50;
+}
+
+button:hover {
+	background-color: white;
+	color: #4caf50;
+}
+
+#container {
+	display: flex;
+	justify-content: center;
+	font-size: 2em;
+	gap: 2em;
+}
+
+.top {
+	background-color: #e98580;
+	border-radius: 20px;
+	padding: 1em;
+	margin: 2em 7em 0 7em;
+}
+
+#showResults {
+	width: 550px;
+	margin: auto;
+	background-color: #f6dcbf;
+	padding: 20px;
+	font-size: 28px;
+	border-radius: 20px;
+	display: none;
+}
+
+#showResults > p {
+	margin: 15px;
+}
+
+#note {
+	width: 793px;
+	margin: auto;
+	color: #4c5758;
+	margin-top: 20px;
+}
+
+@media screen and (max-width: 600px) {
+	input {
+		width: 25%;
+	}
+
+	select {
+		width: 25%;
+	}
+
+	#container {
+		margin: 0;
+	}
+}

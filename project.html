@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Escalate Productive</title>
+	</head>
+	<link rel="stylesheet" href="./style.css" />
+	<body>
+		<div class="top">
+			<div id="container">
+				<div class="colWhite">
+					<h2>
+						FIND FUN ACTIVITIES<br />
+						TO DO
+					</h2>
+					<button onclick="generateResults()">GET RESPONSE</button>
+				</div>
+				<div>
+					<div class="subHead">USE ADDITIONAL FILTER</div>
+					<label for="participants">Participants</label>
+					<input id="participants" type="number" />
+					<br />
+					<label for="type">Choose Type :</label>
+					<select id="type">
+						<option value="Select">Select</option>
+						<option value="education">Education</option>
+						<option value="recreational">Recreational</option>
+						<option value="social">Social</option>
+						<option value="diy">DIY</option>
+						<option value="charity">Charity</option>
+						<option value="cooking">Cooking</option>
+						<option value="relaxation">Relaxation</option>
+						<option value="music">Music</option>
+						<option value="buzywork">Buzywork</option>
+					</select>
+					<br />
+					<label for="accessibility">Accessibility</label>
+					<input id="accessibility" />
+				</div>
+			</div>
+			<div id="note">
+				Accessibility as a factor describing how possible an event is to
+				do with zero being the most accessible [0.0, 1.0]<br />
+				Similarly, Price ranges [0, 1] with 0 being free<br />
+				Select participants upto 4
+			</div>
+		</div>
+		<div id="showResults"></div>
+	</body>
+</html>
+<script src="./script.js"></script>
